@@ -1,0 +1,50 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #002738;
+    text-align: center;
+}
+
+.header>h1 {
+    color: #a1d9fc;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.lineChart {
+    position: relative; 
+    padding-left: 20px;
+}
+
+canvas {
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.selectContainer {
+    padding-left: 25px;
+}
+
+select {
+    float: left;
+    padding: 10px;
+    background-color: #E3E3E3;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+option {
+    padding: 10px;
+    min-height: 5px;
+}
+
+select:hover {
+    padding: 10px;
+    background-color: #E3E3E3;
+    border-radius: 10px;
+}
